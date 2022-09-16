@@ -54,3 +54,15 @@ section{
 .imgs img:nth-child(5){
     transition-delay: 800ms;
 }
+
+
+/*scroll by section by scroll snap*/
+.scroller {
+    height:100vh;;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+    scroll-snap-align: start;
+}
